@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+/* 
+	font-family: 'Poppins', sans-serif;
+*/
+
+
+/* ============== Default Element Style ================ */
+body{font-family: 'Poppins', sans-serif;overflow-x:hidden;background: #eff1f3;}
+a{font-size:16px;font-weight:400;}
+a:hover,a:focus{text-decoration:none;color:#009a6b;}
+/*Banner title*/
+h1{font-size:35px; font-weight:700;color:#045568; margin:0px;text-transform:uppercase;line-height:45px;padding-top:118px;text-align: center;}
+h1 span{display: block; color: #666666;font-size: 22px;}
+/*title*/
+h2{font-size:36px; font-weight:500;color:#333;text-transform:initial ;display:block;line-height:42px;margin-top:0px;}   
+h2 span{font-family: 'Lato', sans-serif;color:#2877bd;display:block;font-size:16px;line-height:25px;text-transform:uppercase;font-weight:500;margin-bottom:15px;}
+h2.white, h2 span.white, p.white{color:#fff;}
+h3{font-size:20px;font-weight:600;margin-top:0px;font-family: 'Poppins', sans-serif;color:#333;line-height: 30px;}
+h3.white{color:#fff;}
+a{color: #666;font-weight: 600;transition: 0.1s ease-in;}
+a:hover{color: #045568;}
+p{font-family: 'Lato', sans-serif;font-size:16px; font-weight:400; line-height:28px;color:#333;}
+p a{transition:0.1s ease-in;}
+p a:hover{color:#009a6b;}
+/*p strong{color:#333333;font-size:18px;}*/
+ul{margin:0;list-style-type:none;}
+ul.ulstyle{padding:0;padding-bottom:10px;}
+ul.ulstyle li{font-family: 'Lato', sans-serif;font-size:16px; font-weight:400; line-height:26px; color:#333;display:flex;}
+ul.ulstyle li::before{content:'\f101';font-family: 'FontAwesome'; margin-right:10px;color:#009a6b;}audio, canvas, iframe, img, svg, video {vertical-align: middle;}
+audio, canvas, img, video {height: auto; box-sizing: border-box;}
+img { border-style: none;}
+.btn-default {background-color: #009a6b;font-weight: 500;margin-bottom: 20px;padding: 12px 35px;text-align: center;color: #fff;transition:0.2s ease-in;border:1px solid transparent;background-image:none;text-shadow:none;text-transform:capitalize;}
+.btn-default:hover{color:#009a6b;border:1px solid #009a6b;background-color:#fff;}
+.padding_0{padding:0px;}
+.paddingtop_0{padding-top:0px !important;}
+.secmargin{padding:80px 0;}
+@media (max-width:767px){
+    .padding_0{padding:10px 15px;}
+    .secmargin{padding:50px 0 !important;}
+    .btn-default{padding:12px 30px;}
+}
+
+
+/* navigation */
+
+#navigation ul li{font-size: 20px;line-height:40px;font-weight: 600;color: ##666666;text-transform: uppercase;letter-spacing: 1px;}
+#navigation ul{padding: 0px;}
+
+
+
+
+
+
